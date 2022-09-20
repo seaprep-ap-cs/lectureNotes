@@ -21,12 +21,12 @@ public class ASCIIArtGenerator {
     public static final int ART_SIZE_FIRST_WORD = ART_SIZE_LARGE;
     private static final String DEFAULT_ART_SYMBOL = "*";
     
-    public static final String FIRST_WORD = "Seattle Prep";
+    public static final String FIRST_WORD = "Let's Go";
     
-    public static final String SECOND_WORD = "Panther Pride";
-    public static final int ART_SIZE_SECOND_WORD = ART_SIZE_MEDIUM;
+    public static final String SECOND_WORD = "Panthers";
+    public static final int ART_SIZE_SECOND_WORD = ART_SIZE_LARGE;
     public static final ASCIIArtFont FONT = ASCIIArtFont.ART_FONT_MONO;
-    public static final String SECOND_WORD_CHAR = "&";
+    public static final String SECOND_WORD_CHAR = "/";
     
     public enum ASCIIArtFont {
         ART_FONT_DIALOG("Dialog"), ART_FONT_DIALOG_INPUT("DialogInput"), 

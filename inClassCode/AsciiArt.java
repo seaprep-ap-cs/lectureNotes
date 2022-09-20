@@ -9,7 +9,7 @@ public class AsciiArt {
     public static void main(String[] args) {
         AsciiArt asciiArt = new AsciiArt();
         String text = "APCS!!!";
-        Settings settings = asciiArt.new Settings(new Font("SansSerif", Font.BOLD, 24), text.length() * 24, 24); // 30 pixel width per character
+        Settings settings = asciiArt.new Settings(new Font("SansSerif", Font.BOLD, 24), text.length() * 30, 30); // 30 pixel width per character
         
         asciiArt.drawString(text, "*", settings);
     }
