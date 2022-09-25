@@ -9,7 +9,7 @@ public class ForLoops {
          } 
       */
       
-      for (int i = 1; i <= 4; i++) {
+      for (int i = 1; i <= 4; i=i+2) {
         System.out.println(i + " squared = " + (i * i)); 
       } 
       
@@ -18,7 +18,6 @@ public class ForLoops {
       //System.out.println("3 squared = 9");
       //System.out.println("4 squared = 16");
       
-      // T-minus 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, blastoff!
       System.out.println();
       
       System.out.print("T-minus ");
@@ -26,10 +25,58 @@ public class ForLoops {
          System.out.print(i + ", ");
          // do something
       }
-      
       System.out.print("blastoff!");
       System.out.println();
       System.out.println();
+      
+      // Task: Using "for loops", display fives lines where each line consists of 10 starts. 
+      // For example:  
+      
+      /*
+            **********
+            **********
+            **********
+            **********
+            **********
+      */
+      
+      
+      // nested loops
+      for (int i = 1; i <= 5; i++) {
+         System.out.println("**********");
+         /*  
+         for (int j = 1; j <= 10; j++) {
+            System.out.print("*");
+         }
+         System.out.println();
+         */
+      }
+      System.out.println();
+
+
+      // variations of nested loops
+      for (int i = 1; i <= 5; i++) {
+         for (int j = 1; j <= i; j++) {
+            System.out.print("*");
+         }
+         System.out.println();
+      }
+      System.out.println();
+
+
+      // variations of nested loops
+      for (int i = 1; i <= 5; i++) {
+         for (int j = 1; j <= i; j++) {
+            System.out.print(i);
+         }
+         System.out.println();
+      }
+      System.out.println();
+
+      // while loops
+      // indefinite loop
+      // equivalent to 
+
       System.out.println("That's all she wrote.");
    }
    
