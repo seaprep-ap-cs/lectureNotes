@@ -55,6 +55,7 @@ public class ForLoops {
 
 
       // variations of nested loops
+      /*
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print("*");
@@ -62,9 +63,11 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
-
+      */
+      
 
       // variations of nested loops
+      /*
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print(i);
@@ -72,7 +75,19 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
+      */
 
+      // variations of nested loops
+      /*
+      for (int i = 1; i <= 5; i++) {
+         for (int j = 1; j <= i; j++) {
+            System.out.print(j);
+         }
+         System.out.println();
+      }
+      System.out.println();
+      */
+      
       // while loops
       // indefinite loop
       // equivalent to 
