@@ -23,7 +23,6 @@ public class ForLoops {
       System.out.print("T-minus ");
       for (int i = 10; i >= 1; i--) {
          System.out.print(i + ", ");
-         // do something
       }
       System.out.print("blastoff!");
       System.out.println();
@@ -56,8 +55,7 @@ public class ForLoops {
          } 
          <do something>
       */
-      
-      
+        
       
       /*
       The while loop below is equivalent (i.e. does the same thing) as the following for loop:
@@ -76,6 +74,14 @@ public class ForLoops {
       System.out.println();
 
       // variations of nested loops
+      // What if j <= i ?
+      /*
+         *
+         **
+         ***
+         ****
+         *****
+      */
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print("*");
@@ -87,7 +93,14 @@ public class ForLoops {
       
 
       // variations of nested loops
-      
+      // What if j <= i AND we print out i ?
+      /*
+         1
+         22
+         333
+         4444
+         55555
+      */
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print(i);
@@ -98,7 +111,14 @@ public class ForLoops {
       
 
       // variations of nested loops
-      
+      // What if j <= i AND we print out j ?
+      /*
+         1
+         12
+         123
+         1234
+         12345
+      */
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print(j);
