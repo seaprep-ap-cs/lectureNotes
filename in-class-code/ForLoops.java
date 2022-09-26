@@ -9,7 +9,7 @@ public class ForLoops {
          } 
       */
       
-      for (int i = 1; i <= 4; i=i+2) {
+      for (int i = 1; i <= 4; i++) {
         System.out.println(i + " squared = " + (i * i)); 
       } 
       
@@ -29,33 +29,53 @@ public class ForLoops {
       System.out.println();
       System.out.println();
       
+      // nested loops
       // Task: Using "for loops", display fives lines where each line consists of 10 starts. 
       // For example:  
       
       /*
-            **********
-            **********
-            **********
-            **********
-            **********
+            ********************
+            ********************
+            ********************
+            ********************
+            ********************
+      */
+      
+     for (int i = 1; i <= 5; i++) {
+      for (int j = 1; j <= 10; j++) {
+         System.out.print("*");
+      }
+      System.out.println();
+     } 
+     System.out.println();
+  
+      // while loops
+      /* 
+         while (<test>) {
+            <do something>
+         } 
+         <do something>
       */
       
       
-      // nested loops
-      for (int i = 1; i <= 5; i++) {
-         System.out.println("**********");
-         /*  
-         for (int j = 1; j <= 10; j++) {
-            System.out.print("*");
+      
+      /*
+      The while loop below is equivalent (i.e. does the same thing) as the following for loop:
+      
+         for (int i = 1; i <= 5; i++) {
+            System.out.println("hello");
          }
          System.out.println();
-         */
+        
+     */    
+      int k = 1;
+      while (k <= 5) {
+         System.out.println("hello");
+         k++;
       }
       System.out.println();
 
-
       // variations of nested loops
-      /*
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print("*");
@@ -63,11 +83,11 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
-      */
+      
       
 
       // variations of nested loops
-      /*
+      
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print(i);
@@ -75,10 +95,10 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
-      */
+      
 
       // variations of nested loops
-      /*
+      
       for (int i = 1; i <= 5; i++) {
          for (int j = 1; j <= i; j++) {
             System.out.print(j);
@@ -86,11 +106,7 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
-      */
       
-      // while loops
-      // indefinite loop
-      // equivalent to 
 
       System.out.println("That's all she wrote.");
    }
