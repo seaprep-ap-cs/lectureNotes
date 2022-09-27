@@ -126,8 +126,7 @@ public class ForLoops {
          System.out.println();
       }
       System.out.println();
-      
-
+            
       System.out.println("That's all she wrote.");
    }
    
