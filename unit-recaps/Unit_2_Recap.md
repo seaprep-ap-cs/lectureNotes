@@ -1,3 +1,15 @@
+## Development Strategy (aka How to Get Unstuck on Hard Problems)
+
+Students sometimes get stuck on hard problems such as question 7 on the Loop handout. To get "unstuck", we need to have some problem-solving tools to approach tough problems. We have already talked about one technique, decomposition, in which we break a large, complex problem into smaller, easier-to-solve problems; we then can use the solutions to smaller problems to help solve the large, original problem. 
+
+Another technique is to have a development strategy. One strategy I recommend is the following:
+
+1. Clearly understand the problem. One way to check if you know what the problem is asking is to try to explain the problem to a five-year old (i.e. use simple words)
+2. Visualize the problem. Sometimes, pictures are much more helpful in understanding the problem.  Techniques to use are the "table technique" and "pseudocode".
+3. Solve the problem by hand. Use the visualizations you created in step 2 to help solve the problem by hand. Manually write out each solution until you can see a pattern. The patterns you see will help you write out the instructions that you will use to write the solution in code. 
+4. Write the code. You should spend a majority of your time on steps 1-3. Your solution that you did by hand should drive the code. The code/programming language should NOT drive your solution. You will know that you skipped steps 1-3 when you feel like you are going in circles trying to make the code work. 
+
+
 ## Loops
 
 * The "for loop" takes the following general form:
