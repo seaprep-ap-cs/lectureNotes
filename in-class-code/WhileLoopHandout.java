@@ -1,4 +1,6 @@
 public class WhileLoopHandout {
+   public static final int START = 5;
+   
    public static void main(String[] args) {
       // while1();
       // System.out.println();
@@ -14,10 +16,12 @@ public class WhileLoopHandout {
       // q6();
       // System.out.println();
       q7();
-      // System.out.println();
+      System.out.println();
       q7v2();
-      // System.out.println();
+      System.out.println();
       q7v3();
+      System.out.println();
+      q7v4();
    }
 
    public static void while1() {
@@ -82,10 +86,35 @@ public class WhileLoopHandout {
          System.out.println();
       }
    }
-
+   
+   // Counts up to START but uses the "test" in the nested loop to generate the desired number
    public static void q7() {
-      for (int i = 1; i <= 5; i++) {
-         for (int j = 5; j >= 6 - i; j--) {
+      for (int i = 1; i <= START; i++) {
+         for (int j = START; j >= START + 1 - i; j--) {
+            System.out.print(j);
+         }
+         System.out.println();
+      }
+      System.out.println();
+   }
+   
+   // Uses third variables to track output
+   public static void q7v2() {
+      int k = START;
+      for (int i = 1; i <= START; i++) {
+         for (int j = START; j >= k; j--) {
+            System.out.print(j);
+         }
+         System.out.println();
+         k--;
+      }
+      System.out.println();
+   }
+
+  // Counts down from START    
+  public static void q7v3() {
+      for (int i = START; i > 0; i--) {
+         for (int j = START; j >= i; j--) {
             System.out.print(j);
          }
          System.out.println();
@@ -93,6 +122,18 @@ public class WhileLoopHandout {
       System.out.println();
    }
 
+  // Counts up from START  
+  public static void q7v4() {
+      for (int line = 1; line <= START; line++) {
+         for (int num = 1; num <= line; num++) {
+            System.out.print(START + 1 - num);
+         }
+         System.out.println();
+      }
+      System.out.println();
+   }
+
+   // Prints desired output "upside down"
    public static void q7Almost() {
       for (int i = 1; i <= 5; i++) {
          for (int j = 5; j >= i; j--) {
@@ -101,29 +142,8 @@ public class WhileLoopHandout {
          System.out.println();
       }
       System.out.println();
-   }
+   }    
 
-   public static void q7v3() {
-      for (int i = 5; i > 0; i--) {
-         for (int j = 5; j >= i; j--) {
-            System.out.print(j);
-         }
-         System.out.println();
-      }
-      System.out.println();
-   }
-
-   public static void q7v2() {
-      int k = 5;
-      for (int i = 1; i <= 5; i++) {
-         for (int j = 5; j >= k; j--) {
-            System.out.print(j);
-         }
-         System.out.println();
-         k--;
-      }
-      System.out.println();
-   }
 
    // The following methods will result in Runtime errors because they are
    // infinite loops Run at your own RISK You are warned.
