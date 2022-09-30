@@ -25,6 +25,7 @@ Create a program that produces the following output on the console:
 ```
 
 1.1 Create a new Java file called `MirrorArt`. 
+
 1.2 Decompose the required output into smaller problems. Recall Exam 1, problems 9-12, in which we had to implement the methods for the output:
 
 ```
