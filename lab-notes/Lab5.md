@@ -160,7 +160,7 @@ line | spaces | dots |
   * Recall from algebra, the slope intercept formula, `y = mx + b`. We will use this same idea to develop our expression to find the number of spaces per line. 
   * In our problem, we need a multplier and a constant to help us determine the number of spaces per line. 
   * Note how 'line' increases by one but 'spaces' decreases by two. How do we get from something that goes up from one to something that goes down by two? Answer: you multiply it by -2. Thus we get our multiplier: `(-2 * line)` But are we done yet? No. We need to add some constant to get to our desired answer. Well, what happens when `line = 1`? We get `(-2 * 1) = -2` But we don't want -2 spaces, we want 6 spaces. What do I add to -2 to get 6? Answer: we add 8 (ie. `(-2 * 1) + 8 = 6`)  We can then generalize our expression for each line to `(-2 * line) + 8` Now, where should we plug in this expression in our code? Hint: we should use it to help us print out the number of spaces we need. 
-  * Using the same table technique to determine the expression to get the number of spaces, write the expression to determine the number of dots you need. 
+  * Use the table technique again but this time to write the expression to get the number of dots. 
 * Update your Java code with the expressions you determined in the previous two bullets. Hint: use those expressions to fill in the `??` of your Java code.
 * Compile your program to ensure that it is sytacticially correct. If compilation fails, look at the error logs, fix the errors, and then recompile until compilation passes. When you run your program, it should produce the following: 
 
