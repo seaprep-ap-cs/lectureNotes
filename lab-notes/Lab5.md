@@ -126,19 +126,19 @@ for (int line; line<= __; line__) {
   
   __
   
-  for (int spaces; spaces <= ??; ) {
+  for (int spaces = __; spaces <= ??; __) {
   
   }
   
   __
   
-  for (int __; __ <= ??; __) {
+  for (int __ = __; __ <= ??; __) {
   
   }
   
   __ 
   
-  for (int __; __ <= ??; __) {
+  for (int __ = __; __ <= ??; __) {
   
   }
   
