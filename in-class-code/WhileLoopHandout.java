@@ -1,5 +1,5 @@
 public class WhileLoopHandout {
-   public static final int START = 5;
+   public static final int START = 9;
    
    public static void main(String[] args) {
       // while1();
@@ -16,12 +16,12 @@ public class WhileLoopHandout {
       // q6();
       // System.out.println();
       q7();
-      System.out.println();
-      q7v2();
-      System.out.println();
-      q7v3();
-      System.out.println();
-      q7v4();
+      // System.out.println();
+//       q7v2();
+//       System.out.println();
+//       q7v3();
+//       System.out.println();
+//       q7v4();
    }
 
    public static void while1() {
