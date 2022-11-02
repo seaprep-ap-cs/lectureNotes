@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class Mortgage {
    public static void main(String[] args) {
       // Create an object named 'console' of type Scanner
