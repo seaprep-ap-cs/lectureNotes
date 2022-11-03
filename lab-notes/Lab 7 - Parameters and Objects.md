@@ -31,7 +31,7 @@ For example, `fraction(4, 7)` would return approximately `0.571428`
 
 ### Method 3
 
-`round2`, which accepts a double and returns an integer that represents the double that is truncated to two decimal places and then properly rounded up or down. We will assume positive values only. 
+`round2`, which accepts a double and returns a double that is truncated to two decimal places and then properly rounded up or down. We will assume positive values only. 
 
 For example:
 `round2(3.488834)` would return `3.49`
@@ -80,7 +80,7 @@ But wait, now the decimal is in the wrong place. For example,  we want 35.14543 
 // 35.62
 ```
 
-But wait again, we need to handle the case where the number is not only truncated but properly rounded up or down. For example, we want to truncate `35.14543` to `35.15` not `35.14` How can we do that? Recall that the Math class has a static method called `Math.round` Thus instead of casting a number to `int` to truncate, we can use `Math.round`, multiplication, and division to round a decimal to two decimal places? 
+But wait again, we need to handle the case where the number is not only truncated but properly rounded up or down. For example, we want to truncate `35.14543` to `35.15` not `35.14` How can we do that? Recall that Math class has a static method called ```Math.round```. Thus instead of casting a number to `int` to truncate, we can use `Math.round` and multiplication and division to round a decimal to two decimal places. 
 
 <br></br>
 <br></br>
