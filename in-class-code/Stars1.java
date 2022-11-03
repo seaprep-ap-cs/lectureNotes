@@ -5,7 +5,10 @@ public class Stars1 {
       lineOf35();
       box10x5();
       box5x6();
-
+      
+      // information flow
+      // i.e. How do we pass information to a method?
+    
       // Methods behave the same as above but uses parameters and reduces redundancy (i.e. copied code)
       lines(13);
       lines(7);

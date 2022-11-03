@@ -6,6 +6,7 @@ public class ScratchPad {
       
       // String object method examples
       String s1 = "Good Morning APCS";
+      int foo = 42;
       
       System.out.println(s1);
       System.out.println("The length of s1 is: " + s1.length());
@@ -13,6 +14,11 @@ public class ScratchPad {
       System.out.println(s1.toLowerCase());
       
       System.out.print("Changing ping to....");
-      System.out.println("ping".replace("i", "o"));      
+      System.out.println("ping".replace("i", "o")); 
+      
+      // You can also chain methods
+      String s3 = "seaprep panther".substring(0,3).toUpperCase();
+      System.out.println(s3); 
+          
    }
 }
