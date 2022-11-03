@@ -142,5 +142,5 @@ FIFTY!
 Cent, Cent, bo-Bent
 Banana-fana fo-Fent
 Fee-fi-mo-Ment
-CENT
+CENT!
 ```
