@@ -18,7 +18,7 @@ Every time you write methods you need to follow these steps of the Design Recipe
 will approach solving problems in an organized and systematic way. You will avoid making common mistakes. You will have
 a much stronger grasp of the problem and how to solve it. You will avoid "blank screen syndrome"; otherwise known as
 "I-understand-the-problem-but-I'm-stuck-and-I-can't-get-started". Each step of the design recipe will be explained; we
-will use the following problem statement to demonstrate how each step is used: Write a problem that calculates any power 
+will use the following problem statement to demonstrate how each step is used: Write a method that calculates any power 
 of any integer.  
 
 #### Step 1: Develop data defintions and data examples
