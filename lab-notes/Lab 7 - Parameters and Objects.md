@@ -130,8 +130,7 @@ During what year were you born? 1981
 You were born on May 8, 1981. You're mighty old!
 ```
  
-1. Write a method called nameGame that accepts a Scanner for the console as a parameter and prompts the user to inputa
-a first and last name. The method should then produce a song in the following format using their first, then last, name. Use additional static methods method to avoid redundancy (hint" remember the first programming assignment?).
+4. Write a method called nameGame that accepts a Scanner for the console as a parameter and prompts the user to input a first and last name. The method should then produce a song in the following format using their first, then last, name. Use additional static methods method to avoid redundancy (hint" remember the first programming assignment?).
 
 ```
 What is your name? Fifty Cent
